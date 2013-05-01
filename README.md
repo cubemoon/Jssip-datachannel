@@ -1,4 +1,4 @@
-Jssip-datachannel
+JsSIP-datachannel
 =================
 
 RTCDatachannel with SIP signaling implementation based on JsSIP library
