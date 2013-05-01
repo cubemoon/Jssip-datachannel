@@ -3,7 +3,7 @@ JsSIP-datachannel
 
 RTCDatachannel with SIP signaling implementation based on JsSIP library
 
-Author: Sergii Trotsenko Copyright (c) 2013
+Author: Sergii Trotsenko
 
 
 
