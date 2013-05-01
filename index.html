@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Author" content="Sergii Trotsenko" />
+    <title>JsSIP RTCDatachannel library</title>
+	<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+	<script src="js/jssip-datachannel-0.6.js" type="text/javascript"></script>
+	<script src="js/client.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  
+<body>
+
+	<table id="anyshare">
+	<tr class="s_row">
+		<td class="s_header">anyShare</td>			
+	</tr>
+	<tr class="s_row">
+		<td class="s_column" >
+		<div>
+			<div id="registrationInfo"> Not registered</div>					
+			<div>
+				<span>ID:</span><input id="pc1_id" type="text" value=""/>
+				<button id="registerButton">Register</button>
+				<button id="unregisterButton">Unregister</button>
+			</div>
+		</div>			
+		</td>
+	</tr>
+	<tr class="s_row" >
+		<td class="s_column">			
+		<div>
+			<span>To:</span><input id="pc2_id" type="text" value=""/>
+			<button id="connectButton">Connect</button>		                
+			<button id="disconnectButton">Disonnect</button>		
+		</div>			
+		</td>
+	</tr>
+	<tr class="s_row">
+		<td class="s_column">			
+		<div>
+			<span>Text:</span><input id="pcInput" type="text" value=""/>
+			<button id="sendText">Send</button>
+		</div>			
+		</td >
+	</tr>	
+	<tr class="s_row">
+		<td class="s_column">
+			<div id="datawindow">
+			</div>					
+		</td>
+	</tr>
+	</table>        
+	
+</body>
+</html>

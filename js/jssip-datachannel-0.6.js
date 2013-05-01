@@ -3393,7 +3393,7 @@ RTCMediaHandler.prototype = {
   },
   
   createDataChannel: function(mediaConstraints) {
-      var self = this;
+	    var self = this;
 
 	    console.log('>>>>>>>>>> | Creating data channel');
 
