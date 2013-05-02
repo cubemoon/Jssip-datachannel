@@ -1,5 +1,7 @@
 /* JsSIP-datachannel-0.6
  * Author: Sergii Trotsenko
+ * (c) Copyright 2013 Sergii Trotsenko
+ *
  * JsSIP version 0.3.1-devel
  * Copyright (c) 2012-2013 José Luis Millán - Versatica <http://www.versatica.com>
  * Homepage: http://jssip.net
