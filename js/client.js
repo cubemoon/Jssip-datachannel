@@ -1,3 +1,8 @@
+/* JsSIP-datachannel-0.6
+ * Author: Sergii Trotsenko
+ * (c) Copyright 2013 Sergii Trotsenko 
+ */
+
 $(document).ready(init);
 
 // JsSip SIP User Agent
